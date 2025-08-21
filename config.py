@@ -1,3 +1,4 @@
 # This file can be used for configuration settings
 
-DATA_DIR = "../data"
+import os
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data"))
