@@ -1,0 +1,6 @@
+langchain
+openai
+sqlalchemy
+pdfminer.six
+python-docx
+pymysql
